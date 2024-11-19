@@ -32,10 +32,13 @@ main{
     margin:0px auto;
     margin-bottom: 5px;
     width: 80%;
-    border-radius: 2% 0 1% 2%;
+    border-radius: 2%;
     padding: 20px 60px;
 }
     /*add command  */
+    #comandi{
+        margin-bottom: 40px;
+    }
 
     .button{ 
         font-size: 12px;
@@ -78,10 +81,23 @@ main{
         margin-bottom: 18px;
     }
     .complete-task::before{
-        content: "\2713" " " ;
+        content:"\2713";
+        font-size: 13px;
+        color:#89b4a6;
+        border:1px solid #89b4a6;margin-right:10px ;
+        border-radius: 100%;
+        margin-right: 4px;
+        padding:0px 3px;
     }
+
     .uncomplete-task::before{
-        content:"\00d7" " "  ;
+        content:"\00d7";
+        font-size: 14px;
+        color: #d4abb1;
+        border:1px solid #d4abb1;
+        border-radius: 100%;
+        margin-right: 5px;
+        padding: 0px 3px;
     }
 
 
@@ -112,6 +128,9 @@ main{
     }
     .Sales{
         background-color: #afca25;
+    }
+    .none{
+        background-color: #45494a;
     }
 
 
