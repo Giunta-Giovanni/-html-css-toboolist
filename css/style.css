@@ -25,14 +25,39 @@
 main{ 
     background-color: #f6f8fa;
     padding-top: 50px;
+    padding-bottom: 10px;
 }
 .container{
     background-color: white;
-    width: 80%;
     margin:0px auto;
-    height: 500px;
-
+    margin-bottom: 5px;
+    width: 80%;
+    border-radius: 2% 0 1% 2%;
 }
-
     /*add command  */
+    .sezione-pulsanti{
+        padding: 20px 70px;
+    }
+
+    .button{ 
+        font-size: 12px;
+        font-weight: 500;
+        border:none;
+        border-radius: 5px;
+        padding: 7px 10px;
+        margin: 0 1px;
+    }
+
+    #blue-button{
+        color: white;
+        background-color:#43adf2 ;
+    }
+    #white-button{
+        color: #dbdcdb;
+        background-color:white;
+        border: 1px solid #dbdcdb;
+
+    }
+
+
 
