@@ -35,103 +35,103 @@ main{
     border-radius: 2%;
     padding: 20px 60px;
 }
-    /*add command  */
-    #comandi{
-        margin-bottom: 40px;
-    }
+/*add command  */
+#comandi{
+    margin-bottom: 40px;
+}
 
-    .button{ 
-        font-size: 12px;
-        font-weight: 500;
-        border:none;
-        border-radius: 5px;
-        padding: 7px 10px;
-        margin: 0 1px;
-    }
+.button{ 
+    font-size: 12px;
+    font-weight: 500;
+    border:none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 0 1px;
+}
 
-    #blue-button{
-        color: white;
-        background-color:#43adf2 ;
-    }
-    #white-button{
-        color: #dbdcdb;
-        background-color:white;
-        border: 1px solid #dbdcdb;
-    }
+#blue-button{
+    color: white;
+    background-color:#43adf2 ;
+}
+#white-button{
+    color: #dbdcdb;
+    background-color:white;
+    border: 1px solid #dbdcdb;
+}
 
-    /* section */
-    .section{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #45494a;
-        margin-bottom: 30px;
-    }
+/* section */
+.section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #45494a;
+    margin-bottom: 30px;
+}
 
-    .titolo-section{
-        font-size: 20px;
-        font-weight: 600;
-    }
+.titolo-section{
+    font-size: 20px;
+    font-weight: 600;
+}
 
-    .titolo-section::before{
-        content:"\25BE" " " ;
-    }
+.titolo-section::before{
+    content:"\25BE" " " ;
+}
 
-    /* task */
-    .task{
-        margin-top: 10px;
-        margin-bottom: 18px;
-    }
-    .complete-task::before{
-        content:"\2713";
-        font-size: 13px;
-        color:#89b4a6;
-        border:1px solid #89b4a6;margin-right:10px ;
-        border-radius: 100%;
-        margin-right: 4px;
-        padding:0px 3px;
-    }
+/* task */
+.task{
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.complete-task::before{
+    content:"\2713";
+    font-size: 13px;
+    color:#89b4a6;
+    border:1px solid #89b4a6;margin-right:10px ;
+    border-radius: 100%;
+    margin-right: 4px;
+    padding:0px 3px;
+}
 
-    .uncomplete-task::before{
-        content:"\00d7";
-        font-size: 14px;
-        color: #d4abb1;
-        border:1px solid #d4abb1;
-        border-radius: 100%;
-        margin-right: 5px;
-        padding: 0px 3px;
-    }
+.uncomplete-task::before{
+    content:"\00d7";
+    font-size: 14px;
+    color: #d4abb1;
+    border:1px solid #d4abb1;
+    border-radius: 100%;
+    margin-right: 5px;
+    padding: 0px 3px;
+}
 
 
-    /* etichette */
-    .label{
-        font-size: 10px;
-        color: rgb(255, 255, 255);
-        border-radius: 12px;
-        padding: 5px 10px;
-        vertical-align: middle;
-        line-height: 100%;
-    }
+/* etichette */
+.label{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    line-height: 100%;
+}
 
-    .editorial{
-        background-color: #43adf2;
-    }
-    .goals{
-        background-color: #9b72e4;
-    }
-    .recruiting{
-        background-color: #62c2a9;
-    }
-    .mobile{
-        background-color: #f49e31;
-    }
-    .website{
-        background-color: #cf689d;
-    }
-    .Sales{
-        background-color: #afca25;
-    }
-    .none{
-        background-color: #45494a;
-    }
+.editorial{
+    background-color: #43adf2;
+}
+.goals{
+    background-color: #9b72e4;
+}
+.recruiting{
+    background-color: #62c2a9;
+}
+.mobile{
+    background-color: #f49e31;
+}
+.website{
+    background-color: #cf689d;
+}
+.Sales{
+    background-color: #afca25;
+}
+.none{
+    background-color: #45494a;
+}
 
 
 
