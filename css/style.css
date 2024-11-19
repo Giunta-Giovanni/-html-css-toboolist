@@ -33,11 +33,9 @@ main{
     margin-bottom: 5px;
     width: 80%;
     border-radius: 2% 0 1% 2%;
+    padding: 20px 60px;
 }
     /*add command  */
-    .sezione-pulsanti{
-        padding: 20px 70px;
-    }
 
     .button{ 
         font-size: 12px;
@@ -56,8 +54,45 @@ main{
         color: #dbdcdb;
         background-color:white;
         border: 1px solid #dbdcdb;
+    }
+
+    /* section */
+    .section{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #45494a;
+        margin-bottom: 10px;
+    }
+
+    .titolo-section{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .titolo-section::before{
+        content:"\25BE" " " ;
+    }
+
+    /* task */
+    .task{
+        margin-top: 5px;
+    }
+    .testo-task::before{
+        content: "\2713" " " ;
+    }
+    .label{
+        background-color: #43adf2;
+        font-size: 10px;
+        color: white;
+        border-radius: 12px;
+        padding: 5px 10px;
+        vertical-align: middle;
+        line-height: 100%;
 
     }
+
+
+
+
 
 
 
