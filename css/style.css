@@ -10,15 +10,16 @@
 }
 
 .logo img{
-    width: 60px;
+    width: 50px;
     line-height: 100%;
+    vertical-align: middle;
 }
 
 #logo-text{
     font-size: 40px;
     font-weight: 800;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 /* main */
@@ -132,10 +133,3 @@ main{
 .none{
     background-color: #45494a;
 }
-
-
-
-
-
-
-
